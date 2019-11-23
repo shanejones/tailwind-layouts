@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1fa9d471-548d-45e4-b2c0-525a0de554d4/deploy-status)](https://app.netlify.com/sites/romantic-davinci-12232f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d0f3fa2-bbe4-469b-ab6a-d8b23cce5efc/deploy-status)](https://app.netlify.com/sites/trusting-tereshkova-3a543a/deploys)
 
 # Tailwind Layouts
 
