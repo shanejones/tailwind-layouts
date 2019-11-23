@@ -9,7 +9,7 @@
 
 <main class="p-16">
     <h1 class="text-3xl font-light text-black">CNN Style Templates</h1>
-    <p>Built in Flat HTML, TailwindsCSS and VanillaJS where needed
+    <p>Built in Flat HTML, TailwindCSS and VanillaJS where needed
 </main>
 
 <div class="px-16 flex">
