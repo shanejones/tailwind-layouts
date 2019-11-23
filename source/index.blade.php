@@ -2,7 +2,7 @@
 
 @section('head-meta')
     <title>TailwindsCSS Layouts and Templates</title>
-    <meta name="description" content="A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. Built by Shane Jones."">
+    <meta name="description" content="A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. Built by Shane Jones.">
 @endsection
 
 @section('content')
