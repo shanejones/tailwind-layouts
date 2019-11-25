@@ -6,8 +6,7 @@
 @endsection
 
 @section('body')
+<body>
 
-
-
-
+</body>
 @endsection
