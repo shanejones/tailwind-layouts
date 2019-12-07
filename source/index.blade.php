@@ -9,7 +9,7 @@
 
 <main class="p-6 md:p-16">
     <h1 class="text-3xl font-light text-black">TailwindCSS Layouts and Templates</h1>
-    <p class="mt-4 text-gray-600">A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. Built by Shane Jones.</p>
+    <p class="mt-4 text-gray-600">A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. These layouts will use the standard TailwindCSS styles from the current version.</p>
 </main>
 
 @include('_partials.footer')
