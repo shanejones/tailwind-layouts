@@ -15,8 +15,8 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
-        <script>
+        <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
+        <script async defer>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
