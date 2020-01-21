@@ -1,4 +1,6 @@
 /build_local/
+/build_staging/
+/build_production/
 /cache/
 /node_modules/
 /vendor/
@@ -7,10 +9,3 @@
 /.got/
 npm-debug.log
 yarn-error.log
-
-# Optional ignores
-# /build_staging/
-# /build_production/
-# /source/assets/css/
-# /source/assets/fonts/
-# /source/assets/js/

@@ -25,7 +25,10 @@
         </script>
 
     </head>
-    <body class="antialiased font-sans">
+    <body class="font-sans antialiased">
+
         @yield('content')
+
+        <script src="{{ mix('/js/main.js') }}"></script>
     </body>
 </html>
