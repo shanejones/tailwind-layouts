@@ -7,7 +7,7 @@
 
 @section('content')
 
-<header class="p-6 md:p-16">
+<header class="p-6  bg-tile md:p-16">
     <h1 class="text-3xl text-white font-semi">Lists in TailwindCSS</h1>
     <p class="mt-4 text-white">The following will be a selection of geniric list and alternaive ways to formal lists of date. </p>
 </header>

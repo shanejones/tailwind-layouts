@@ -7,7 +7,7 @@
 
 @section('content')
 
-<header class="p-6 md:p-16">
+<header class="p-6  bg-tile md:p-16">
     <h1 class="text-3xl text-white font-semi">Breadcrumbs in TailwindCSS</h1>
     <p class="mt-4 text-white">The following will be a selection of breadcrumb layouts which you can use your in your site to show users where they are in the site. </p>
 </header>

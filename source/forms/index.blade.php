@@ -7,7 +7,7 @@
 
 @section('content')
 
-<header class="p-6 md:p-16">
+<header class="p-6  bg-tile md:p-16">
     <h1 class="text-3xl text-white font-semi">Forms in TailwindCSS</h1>
     <p class="mt-4 text-white">The following will be a variety of form layouts and styles which you can use on your contact forms, newsletter signups or anywhere else you need data entry. </p>
 </header>

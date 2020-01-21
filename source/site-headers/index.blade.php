@@ -7,7 +7,7 @@
 
 @section('content')
 
-<header class="p-6 md:p-16">
+<header class="p-6 bg-tile md:p-16"></header>
     <h1 class="text-3xl text-white font-semi">Site Headers in TailwindCSS</h1>
     <p class="mt-4 text-white">The following will be a selection of complete site and page headers. </p>
 </header>
