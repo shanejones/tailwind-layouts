@@ -29,6 +29,6 @@
 
         @yield('content')
 
-        <script src="{{ mix('/js/main.js') }}"></script>
+        <script async defer src="{{ mix('/js/main.js') }}"></script>
     </body>
 </html>
