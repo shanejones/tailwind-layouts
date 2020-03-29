@@ -25,7 +25,7 @@
         </script>
 
     </head>
-    <body class="font-sans antialiased">
+    <body class="mb-32 font-sans antialiased">
 
         @yield('content')
 

@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.code-page')
 
 @section('head-meta')
     <title>Comment Blocks - TailwindCSS Layouts</title>
