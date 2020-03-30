@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('head-meta')
     <title>TailwindCSS Layouts and Templates</title>

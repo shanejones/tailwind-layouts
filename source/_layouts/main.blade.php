@@ -15,8 +15,8 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
-        <script>
+        <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
+        <script async defer>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -25,10 +25,10 @@
         </script>
 
     </head>
-    <body class="font-sans antialiased">
+    <body class="mb-32 font-sans antialiased">
 
         @yield('content')
 
-        <script src="{{ mix('/js/main.js') }}"></script>
+        <script async defer src="{{ mix('/js/main.js') }}"></script>
     </body>
 </html>

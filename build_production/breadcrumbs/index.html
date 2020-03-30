@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <title>Breadcrumbs - TailwindCSS Layouts</title>
+    <meta name="description" content="The following will be a selection of breadcrumb layouts which you can use your in your site to show users where they are in the site. Built using TailwindCSS by Shane Jones.">
+        <link rel="stylesheet" href="/assets/css/main.css?id=b8935c441bc1d029c6be">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0058ff">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
+        <script async defer>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-153176661-1');
+        </script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" rel="stylesheet" />
+
+    </head>
+    <body class="mb-32 font-sans antialiased">
+
+        
+<header class="p-6 bg-tile md:p-16">
+    <h1 class="text-3xl text-white font-semi">Breadcrumbs in TailwindCSS</h1>
+    <p class="mt-4 text-white">The following will be a selection of breadcrumb layouts which you can use your in your site to show users where they are in the site. </p>
+</header>
+
+
+<main class="p-6 my-12 bg-blue-900 md:px-16 md:py:8">
+    <div class="flex items-center justify-between">
+        <h2 class="inline-block text-2xl font-light text-white">Block 1</h2>
+        <p class="inline-block text-right text-white"><a class="underline view-source" href="#" data-block="1">View Source</a></p>
+    </div>
+    <pre class="p-4 mt-2 text-xs bg-gray-200 rounded"><code class="language-html hidden block-1 "></code></pre>
+</main>
+<div class="code-block-1">
+    
+    <div class="container p-2 mx-auto">
+        <p>
+            <a href="#" class="underline hover:text-teal-700">Home</a>
+            /
+            <a href="#" class="underline hover:text-teal-700">Second Level</a>
+            /
+            <span class="font-semibold">Current Page</span>
+        </p>
+    </div>
+    
+</div>
+
+<main class="p-6 my-12 bg-blue-900 md:px-16 md:py:8">
+    <div class="flex items-center justify-between">
+        <h2 class="inline-block text-2xl font-light text-white">Block 2</h2>
+        <p class="inline-block text-right text-white"><a class="underline view-source" href="#" data-block="2">View Source</a></p>
+    </div>
+    <pre class="p-4 mt-2 text-xs bg-gray-200 rounded"><code class="language-html hidden block-2 "></code></pre>
+</main>
+<div class="code-block-2">
+    
+    <div class="p-2 bg-gray-200">
+        <div class="container mx-auto">
+            <p>
+                <a href="#" class="underline hover:text-teal-700">Home</a>
+                /
+                <a href="#" class="underline hover:text-teal-700">Second Level</a>
+                /
+                <span class="font-semibold">Current Page</span>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<main class="p-6 my-12 bg-blue-900 md:px-16 md:py:8">
+    <div class="flex items-center justify-between">
+        <h2 class="inline-block text-2xl font-light text-white">Block 3</h2>
+        <p class="inline-block text-right text-white"><a class="underline view-source" href="#" data-block="3">View Source</a></p>
+    </div>
+    <pre class="p-4 mt-2 text-xs bg-gray-200 rounded"><code class="language-html hidden block-3 "></code></pre>
+</main>
+<div class="code-block-3">
+    
+    <div class="p-2 bg-black">
+        <div class="container mx-auto">
+            <p class="text-white">
+                <a href="#" class="underline hover:text-red-700">Home</a>
+                &gt;
+                <a href="#" class="underline hover:text-red-700">Second Level</a>
+                &gt;
+                <span class="font-semibold">Current Page</span>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<main class="p-6 my-12 bg-blue-900 md:px-16 md:py:8">
+    <div class="flex items-center justify-between">
+        <h2 class="inline-block text-2xl font-light text-white">Block 4</h2>
+        <p class="inline-block text-right text-white"><a class="underline view-source" href="#" data-block="4">View Source</a></p>
+    </div>
+    <pre class="p-4 mt-2 text-xs bg-gray-200 rounded"><code class="language-html hidden block-4 "></code></pre>
+</main>
+<div class="code-block-4">
+    
+    <div class="container mx-auto">
+        <p class="text-white">
+            <a href="#" class="relative z-20 py-2 pl-4 pr-8 bg-blue-900 rounded-tr-full rounded-br-full hover:bg-green-900">Home</a>
+            <a href="#" class="relative z-10 px-8 py-2 -ml-6 bg-blue-800 rounded-tr-full rounded-br-full hover:bg-green-800">Second Level</a>
+            <span class="relative z-0 px-8 py-2 -ml-6 bg-blue-700 rounded-tr-full rounded-br-full">Current Page</span>
+        </p>
+    </div>
+
+</div>
+
+
+<main class="p-6 my-12 bg-blue-900 md:px-16 md:py:8">
+    <div class="flex items-center justify-between">
+        <h2 class="inline-block text-2xl font-light text-white">Block 5</h2>
+        <p class="inline-block text-right text-white"><a class="underline view-source" href="#" data-block="5">View Source</a></p>
+    </div>
+    <pre class="p-4 mt-2 text-xs bg-gray-200 rounded"><code class="language-html hidden block-5 "></code></pre>
+</main>
+<div class="code-block-5">
+    
+    <div class="container p-2 mx-auto">
+        <p>
+            <a href="#" class="hover:text-teal-700">
+                <svg aria-hidden="true" focusable="false" data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="inline-block w-5 h-5"><path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z" class=""></path></svg>
+            </a>
+            /
+            <a href="#" class="underline hover:text-teal-700">Second Level</a>
+            /
+            <span class="font-semibold">Current Page</span>
+        </p>
+    </div>
+    
+</div>
+
+
+<footer class="fixed bottom-0 left-0 w-screen px-4 py-2 text-center bg-blue-400">
+    <p class="font-bold md:leading-loose"><span class="hidden md:inline-block">Follow <a href="http://twitter.com/shanejones" rel="nofollow" class="border-b-2 border-black hover:text-gray-300 hover:border-gray-300">Shane Jones on Twitter</a> for updates on more layouts.</span>
+    <a href="http://twitter.com/shanejones" rel="nofollow" class="block px-4 py-2 font-bold text-gray-600 bg-white rounded sm:ml-6 hover:bg-gray-200 md:inline-block">
+        <svg class="inline w-4 h-4 mb-1 mr-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Twitter</title><path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path></svg>
+        Follow<span class="md:hidden"> @ShaneJones</span></a></p>
+</footer>
+
+        <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
+        <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+        <script async defer src="/assets/js/main.js?id=d878abc76651e2d87b5d"></script>
+    </body>
+</html>

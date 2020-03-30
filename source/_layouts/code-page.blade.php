@@ -23,9 +23,15 @@
 
         gtag('config', 'UA-153176661-1');
         </script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" rel="stylesheet" />
 
     </head>
+    <body class="mb-32 font-sans antialiased">
 
-    @yield('content')
-    
+        @yield('content')
+
+        <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
+        <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+        <script async defer src="{{ mix('/js/main.js') }}"></script>
+    </body>
 </html>

@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.code-page')
 
 @section('head-meta')
     <title>Buttons - TailwindCSS Layouts</title>
@@ -7,7 +7,7 @@
 
 @section('content')
 
-<header class="p-6 md:p-16">
+<header class="p-6  bg-tile md:p-16">
     <h1 class="text-3xl text-white font-semi">Buttons in TailwindCSS</h1>
     <p class="mt-4 text-white">The following will be a selection of buttons which you can use anywhere on your site. </p>
 </header>

@@ -34,3 +34,7 @@ function viewSource(e){
 }
 
 viewSourceLinks.forEach(block => block.addEventListener('click', viewSource))
+
+
+window.Prism = window.Prism || {};
+window.Prism.manual = true;

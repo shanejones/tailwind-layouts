@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
             <title>TailwindCSS Layouts and Templates</title>
-    <meta name="description" content="A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. Built by Shane Jones.">
-        <link rel="stylesheet" href="/assets/css/main.css?id=d3dd9685383c929e1c1a">
+    <meta name="description" content="A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. Built using TailwindCSS by Shane Jones.">
+        <link rel="stylesheet" href="/assets/css/main.css?id=b8935c441bc1d029c6be">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -16,8 +16,8 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
-        <script>
+        <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-153176661-1"></script>
+        <script async defer>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -26,20 +26,109 @@
         </script>
 
     </head>
-    <body class="font-sans antialiased">
+    <body class="mb-32 font-sans antialiased">
 
         
-<main class="p-6 md:p-16">
-    <h1 class="text-3xl font-light text-black">TailwindCSS Layouts and Templates</h1>
-    <p class="mt-4 text-gray-600">A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. These layouts will use the standard TailwindCSS styles from the current version.</p>
-</main>
+<header class="p-6 mb-8 bg-tile md:p-16">
+    <h1 class="text-3xl text-white font-semi">TailwindCSS Layouts and Templates</h1>
+    <p class="mt-4 text-white">A selection of layouts, blocks and full templates using Flat HTML, Tailwind CSS and VanillaJS. These layouts will use the standard TailwindCSS styles from the latest version.
+        <br><br>    
+        This site is in active development. Want to add to it? Throw me a pull request over at <a href="" rel="nofollow">github</a>.
+    </p>
+</header>
 
-<div class="mx-auto xl:container p6">
-    <div class="flex items-center bg-gray-200 rounded">
-        <h2>Site Headers</h2>
+<main class="container mx-auto p6 md:flex md:flex-wrap">
+
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="">
+                <h2 class="font-semibold">Site Headers</h2></a>
     </div>
-</div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="site-footers/">
+                <h2 class="font-semibold">Site Footers</h2></a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="navigation/">
+                <h2 class="font-semibold">Navigation</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="buttons/">
+                <h2 class="font-semibold">Buttons</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="blog-archive-lists/">
+                <h2 class="font-semibold">Blog Posts / Archive Lists</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="blog-post-content/">
+                <h2 class="font-semibold">Blog Post Content</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="product-lists/">
+                <h2 class="font-semibold">Product Lists</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="lists/">
+                <h2 class="font-semibold">Lists</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="profile-author-bios/">
+                <h2 class="font-semibold">Profile / Author Bios</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="comment-blocks/">
+                <h2 class="font-semibold">Comment Blocks</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="accordions/">
+                <h2 class="font-semibold">Accordions</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="breadcrumbs/">
+                <h2 class="font-semibold">Breadcrumbs</h2>
+            </a>
+    </div>
+    
+    <div class="md:w-1/2 lg:w-1/3">
+        <a class="block p-4 m-4 text-center bg-gray-200 rounded md:h-24 md:flex md:items-center md:justify-center md:text-xl hover:bg-blue-200" 
+            href="forms/">
+                <h2 class="font-semibold">Forms</h2>
+            </a>
+    </div>
 
+</main>
 
 <footer class="fixed bottom-0 left-0 w-screen px-4 py-2 text-center bg-blue-400">
     <p class="font-bold md:leading-loose"><span class="hidden md:inline-block">Follow <a href="http://twitter.com/shanejones" rel="nofollow" class="border-b-2 border-black hover:text-gray-300 hover:border-gray-300">Shane Jones on Twitter</a> for updates on more layouts.</span>
@@ -48,6 +137,6 @@
         Follow<span class="md:hidden"> @ShaneJones</span></a></p>
 </footer>
 
-        <script src="/assets/js/main.js?id=170f0e4eb5402bb97cdc"></script>
+        <script async defer src="/assets/js/main.js?id=d878abc76651e2d87b5d"></script>
     </body>
 </html>
